@@ -38,7 +38,7 @@ class Solution:
                     maxDiff = prices[-i] - prices[-j] #overwrite if difference is bigger than 0
         return maxDiff
 
-# SOLUTION 2, better, but not perfect, w
+# SOLUTION 2, better, but not perfect
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         minNum = prices[0]
