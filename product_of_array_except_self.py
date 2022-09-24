@@ -42,3 +42,4 @@ class Solution:
             x = reverseCountChain[-i]*nums[-i]
             reverseCountChain.insert(0, x)
         return [item1 * item2 for item1, item2 in zip(countChain, reverseCountChain)] # multiply lists
+
