@@ -1,3 +1,10 @@
+"""
+9. Palindrome Number
+Given an integer x, return true if x is a 
+palindrome and false otherwise.
+"""
+
+
 class Solution(object):
     def isPalindrome(self, x):
         # in a test case 0 considered as a palindrome
