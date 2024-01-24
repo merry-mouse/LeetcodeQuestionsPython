@@ -10,7 +10,7 @@ class Solution(object):
         # in a test case 0 considered as a palindrome
         if x == 0:
             return True
-        # any negative number isn't a palindrome (cannot have - in the end too)
+        # any negative number isnt a palindrome (cannot have - in the end too)
         # any number that ends with 0 isn't a palindrome, because we don't have numbers like 010
         if x < 0 or x % 10 == 0:
             return False
